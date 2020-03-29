@@ -1,0 +1,109 @@
+/*-- BODY --*/
+body h2{
+    font-size:3em;
+}
+html {
+    scroll-padding-top: 56px; /* height of sticky header */
+  }
+
+/*-- HEADER --*/
+.jumbotron{
+    margin-top: 56px;
+    background-color: #FFF;
+}
+.jumbotron h1{
+    font-size: 6em;
+}
+.jumbotron h3{
+    font-size: 2.5em;
+}
+
+/*-- ACERCA DE MI --*/
+.containerAcercaDeMi{
+    background-color: #F1F6F5;
+}
+
+/*-- PROYECTOS --*/
+.containerProyectos{
+    background-color: #F1F6F5;
+}
+.containerProyectos .card img{
+    height: 300px;
+}
+
+/*-- CONTACTO --*/
+.containerContacto{
+    background-color: #F1F6F5;
+}
+.containerContacto textarea{
+    min-height: 86px;
+    max-height: 172px;
+}
+
+/*-- FRASES --*/
+.frases{
+    background-color: #F5B82B;
+}
+.frase{
+    background-color: #F5B82B;
+}
+
+/*-- FOOTER --*/
+.containerRedesSociales{
+    background-color: #F1F6F5;
+}
+footer{
+    background-color: #000;
+}
+footer i{
+    font-size: 300%;
+    color: #FFF;
+    padding-top:.3em;
+    padding-bottom:.3em;
+}
+footer .jota{
+    display: flex;
+    justify-content: space-between;
+}
+footer .fa-github:hover{
+    color: #6e5494;
+    cursor: pointer;
+    opacity: 1;
+}
+footer .fa-linkedin-in:hover{
+    color: #0077b5;
+    cursor: pointer;
+    opacity: 1;
+}
+footer .fa-blog:hover{
+    color: #f57d00;
+    cursor: pointer;
+    opacity: 1;
+}
+footer .fa-twitter:hover{
+    color: #1da1f2;
+    cursor: pointer;
+    opacity: 1;
+}
+footer .fa-instagram:hover{
+    color: #F77737;
+    cursor: pointer;
+    opacity: 1;
+}
+footer .fa-facebook-f:hover{
+    color: #3b5998;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+/*-- MEDIA QUERIES --*/
+
+@media (max-width:576px){
+    .jumbotron h1{
+        font-size: 4em;
+    }
+    footer i{
+        font-size: 200%;
+    }
+}
