@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <script src="https://use.fontawesome.com/7c0733f34b.js"></script>
+    <script src="https://kit.fontawesome.com/80526742d6.js" crossorigin="anonymous"></script>
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../style/styles.css">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <i class="fas fa-blog d-inline-block "width="30" height="30"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de navegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- MENU -->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a href="#acercaDeMi" class="nav-link">Acerca de mi</a>
+                        </li>
+
+                        <!-- SUB MENU -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="subMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Proyectos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="subMenu">
+                                <a href="#proyectos" class="dropdown-item">Color Game</a>
+                                <a href="#proyectos" class="dropdown-item">Weather Channel</a>
+                                <a href="#proyectos" class="dropdown-item">To Do List</a>
+                                <a href="#" class="dropdown-item disabled">Bootstrap</a>
+                                <a href="#" class="dropdown-item disabled">Your Salary</a>
+                                <a href="#" class="dropdown-item disabled">CRUD</a>
+                            </div>
+                        </li>
+                                
+                                
+                        <li class="nav-item">
+                            <a href="#contacto" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+
+                <form action="" class="form-inline my-2 my-lg-0">
+                    <input type="search" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0 disabled" type="submit">Buscar</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="jumbotron text-center">
+                        <h1 class="mb-5">PAITANO IVO</h1>
+                        <h3>Developer</h3>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ACERCA DE MI -->
+    <div class="containerAcercaDeMi" id="acercaDeMi">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center my-3">ACERCA DE MI</h2>
+                    <!-- CAROUSEL -->
+                    <div class="carousel slide" id="carouselAcercaDeMi" data-target="carousel">
+                        <!-- CAROUSEL INDICATORS -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselAcercaDeMi" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselAcercaDeMi" data-slide-to="1"></li>
+                            <li data-target="#carouselAcercaDeMi" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- CAROUSEL IMAGES -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../style/img/carousel1.jpg" alt="" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>FORMACION</h5>
+                                    <p class="text-left">
+                                        Graduado "Tec.Computacion" en ET37 HNSM. <br>
+                                        Graduado "Curso Introductorio" en Plataforma5. <br>
+                                        Aprendiendo constantemente acerca de programacion mediante Udemy y foros del mismo fin. <br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../style/img/carousel2.jpg" alt="" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>HOBBIES</h5>
+                                    <p>
+                                        Entre mis hobbies estan el hardware-gamer, cocinar, el ejercicio, obviemos la programacion, y algun que otro juego online.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../style/img/carousel3.jpg" alt="" class="d-block w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>MISIONES/VISION</h5>
+                                    <p>
+                                        Para despues.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CONTROLS CAROUSEL-->
+                        <a href="#carouselAcercaDeMi" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">previous</span>
+                        </a>
+                        <a href="#carouselAcercaDeMi" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">next</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- PROYECTOS -->
+    <div class="containerProyectos" id="proyectos">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center my-3">PROYECTOS</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card my-4">
+                                    <img src="https://cdn.pixabay.com/photo/2017/08/05/13/34/rubiks-cube-2583645_960_720.png" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Color Game
+                                        </h5>
+                                        <p class="card-text">
+                                            JS-CSS-HTML
+                                        </p>
+                                        <a href="https://ivopaitano.github.io/colorGame/" target="blank" class="btn btn-outline-primary btn-block">Ir</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card my-4">
+                                    <img src="https://cdn.pixabay.com/photo/2018/09/19/13/39/weather-3688572_960_720.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Weather Channel
+                                        </h5>
+                                        <p class="card-text">
+                                            JS-HTML-CSS
+                                        </p>
+                                        <a href="https://ivopaitano.github.io/weatherChannel/" target="blank" class="btn btn-outline-primary btn-block">Ir</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card my-4">
+                                    <img src="https://cdn.pixabay.com/photo/2017/07/04/10/05/checklist-2470549_960_720.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            To Do List
+                                        </h5>
+                                        <p class="card-text">
+                                            JS-CSS-HTML
+                                        </p>
+                                        <a href="https://ivopaitano.github.io/todolist/" target="blank" class="btn btn-outline-primary btn-block">Ir</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card my-4">
+                                    <img src="https://cms-assets.tutsplus.com/uploads/users/71/courses/1173/preview_image/beginners-guide-bootstrap-4-grid-400x277.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Bootstrap
+                                        </h5>
+                                        <p class="card-text">
+                                            En proceso.
+                                        </p>
+                                        <a href="#" class="btn btn-outline-primary btn-block disabled">Ir</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card my-4">
+                                    <img src="https://cdn.pixabay.com/photo/2019/10/18/19/51/financial-4560047__340.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            Your Salary
+                                        </h5>
+                                        <p class="card-text">
+                                            En proceso.
+                                        </p>
+                                        <a href="" class="btn btn-outline-primary btn-block disabled">Ir</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card my-4">
+                                    <img src="https://camo.githubusercontent.com/d63b4cfb665effa73eae9cd352a8fa8be693a635/68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d6c5a53733547782d59336b2f57686276395533396739492f41414141414141414266632f4f494e4d706578356a796f783542674867423657676733304d45504472336c7577434c63424741732f73313630302f637275645f6f7065726174696f6e5f7361707569352e676966" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            CRUD
+                                        </h5>
+                                        <p class="card-text">
+                                            En proceso.
+                                        </p>
+                                        <a href="" class="btn btn-outline-primary btn-block disabled">Ir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="containerContacto" id="contacto">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center my-3">CONTACTO</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-md-6 ">
+                                <label for="inputEmail">Email</label>
+                                <input class="form-control" required type="email" id="inputEmail" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group col-12 col-md-6 ">
+                                <label for="">Nombre</label>
+                                <input class="form-control" required type="text" id="inputNombre" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-12">
+                                <label for="comentario">Comentario</label>
+                                <textarea class="form-control" required id="comentario" rows="3" placeholder="Comentario..."></textarea>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary disabled"  type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- FRASES -->
+    <div class="frases">
+        <div class="container">
+            <div class="card frase">
+                <div class="card-header">
+                    FRASE
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title" id="autor">Paitano Ivo</h5>
+                    <p class="card-text" id="frase">
+                        El esfuerzo supera al talento cuando el talento no se esfuerza.
+                    </p>
+                    <button class="btn btn-dark" id="cambiar">Cambiar Frase</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <ul class="nav jota">
+                <li>
+                    <a href="https://github.com/IvoPaitano" target="blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/paitanoivo/" target="blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="blank">
+                        <i class="fas fa-blog"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=es" target="blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ivoomartinez_/?hl=es-la" target="blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/ivo.martinez3" target="blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="../js/script.js"></script>
+
+    <!-- BOOTSTRAP-JQUERY -->
+    <script src="https://use.fontawesome.com/a872774392.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
