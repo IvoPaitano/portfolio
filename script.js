@@ -36,3 +36,5 @@ window.setInterval(cambiarFrase,600000)
 document.getElementById("cambiar").addEventListener("click",function(){
         cambiarFrase()
 })
+
+
